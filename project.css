@@ -1,0 +1,29 @@
+.menu{
+    width: 100%;
+    background: rgba(96, 166, 187, 0.747);
+    overflow: auto;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 70px;
+}
+.menu ul li{
+   float: left; 
+}
+a{
+    text-decoration: none;
+    width: 120px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight:bold ;
+}
+.menu ul li a:hover{
+    color:rgb(255, 255, 255);
+    background:rgb(73, 138, 158);
+    font-size: 15px;
+}

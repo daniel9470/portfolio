@@ -1,0 +1,99 @@
+
+
+     .menu{
+      width: 100%;
+      background: rgba(96, 166, 187, 0.747);
+      overflow: auto;
+  }
+  .menu ul{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      line-height: 70px;
+  }
+  .menu ul li{
+     float: left; 
+  }
+  a{
+      text-decoration: none;
+      width: 120px;
+      display: block;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight:bold ;
+  }
+  .menu ul li a:hover{
+      color:rgb(255, 255, 255);
+      background:rgb(73, 138, 158);
+      font-size: 15px;
+  }
+  .toggle-nav{
+      display: none;
+  }
+  .social{
+      float: right;
+      margin-right: 100px;
+  
+  }
+  .social a{
+      max-width: 50px;
+      font: 16px;
+  }
+  body{
+   background-image: url(/img/toshiro.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin:0;
+   padding:0;
+   font-family: Arial;
+   height: 100vh;
+}
+
+header{
+    text-align: center;
+    height: 50px;
+    background-color: rgb(255, 145, 145);
+    width: fit-content;
+    margin-left: 45%;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 10pxc;
+
+      }
+
+
+     .about {
+         position: relative;
+        margin-left:5%;
+        background:rgb(116, 184, 240);
+        box-shadow:0 15px 15px rgba(0, 0, 0, 0.37);
+        width:40%;
+        border-radius: 10px;
+        padding: 50px;
+        max-width: 600px;
+     }
+
+     .nog{
+        position: relative;
+        margin-left:5%;
+        background:rgb(116, 184, 240);
+        box-shadow:0 15px 15px rgba(0, 0, 0, 0.37);
+        width:40%;
+        border-radius: 10px;
+        padding: 50px;
+        max-width: 600px;
+     }
+
+     .geste{
+        position: relative;
+        margin-left:5%;
+        background:rgb(116, 184, 240);
+        box-shadow:0 15px 15px rgba(0, 0, 0, 0.37);
+        width:40%;
+        border-radius: 10px;
+        padding: 50px;
+        max-width: 600px;
+
+     }
